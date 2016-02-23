@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "The Middleman" %></title>
+  <title><%= current_page.data.title || "Tom Stemerding" %></title>
 
   <%= stylesheet_link_tag "all" %>
   <%= javascript_include_tag  "all" %>
@@ -22,57 +22,35 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script type="text/javascript">
-  $(function () {
-    
-    var filterList = {
-    
-      init: function () {
-      
-        // MixItUp plugin
-        // http://mixitup.io
-        $('#portfoliolist').mixitup({
-          targetSelector: '.portfolio',
-          filterSelector: '.filter',
-          effects: ['fade'],
-          easing: 'snap',
-          // call the hover effect
-          onMixEnd: filterList.hoverEffect()
-        });       
-      
-      },
-      
-      hoverEffect: function () {
-      
-        // Simple parallax effect
-        $('#portfoliolist .portfolio').hover(
-          function () {
-            $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-            $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');       
-          },
-          function () {
-            $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-            $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');               
-          }   
-        );        
-      
-      }
-
-    };
-    
-    // Run the show!
-    filterList.init();
-    
-    
-  }); 
-  </script>
-
+ 
 </head>
 
 <body class="<%= page_classes %>">
 
 <%= partial "navbar" %>
 <%= yield %>
+<%= partial "footer" %>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+   var hashTagActive = "";
+    $(".scroll").click(function (event) {
+        if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
+            event.preventDefault();
+            //calculate destination place
+            var dest = 0;
+            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                dest = $(document).height() - $(window).height();
+            } else {
+                dest = $(this.hash).offset().top;
+            }
+            //go to destination
+            $('html,body').animate({
+                scrollTop: dest
+            }, 1000, 'swing');
+            hashTagActive = this.hash;
+        }
+    });
+</script>
 </body>
 </html>

@@ -1,13 +1,32 @@
-.content {
+.content-skills {
     margin: 0 auto;
     margin-top: 15px;
     padding:15px;
     border: none;
-    background-color: #faf9f5;
+    background-color: #003459;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
-    border-radius: 5px; 
+}
+.skill {
+    color:#FFF;
 }
 
+.content-projects {
+    margin: 0 auto;
+    margin-top: 15px;
+    padding:15px;
+    border: none;
+    background-color: #567BA5;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}
+    
+.content-me {
+    margin: 0 auto;
+    margin-top: 15px;
+    padding:15px;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}    
 .content-pp {
     margin: 0 auto;
     margin-top: 45px;
@@ -16,6 +35,10 @@
     background-color: #faf9f5;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
     border-radius: 5px; 
+}
+
+.content-pad {
+    padding:50px;
 }
 
 #content_2, #content_3 { display:none; }
