@@ -3,7 +3,7 @@ kraamzorgdezuster:
   project_name: kraamzorgdezuster.nl
   picture: http://tomstemerding.kusted.nl/assets/img/dezustersingle.png
   lpicture: zustersmall.png
-  summary: A excisting wordpress theme edited to the needs of the client.
+  summary: A existing wordpress theme edited to the needs of the client.
   techniques: Wordpress(HTML(5), CSS(3))
   url: http://www.kraamzorgdezuster.nl
 kusted:
@@ -16,7 +16,7 @@ kusted:
 zango:
   project_name: zango.nl
   picture: http://tomstemerding.kusted.nl/assets/img/zangosingle.png
-  summary: A excisting wordpress theme edited to the needs of the client.
+  summary: A existing wordpress theme edited to the needs of the client.
   lpicture: zangosmall.png
   techniques: Wordpress (HTML, CSS, PHP & jQuery)
   url: http://www.zango.nl
@@ -26,4 +26,4 @@ schoolproject:
   summary: A website made for a school project.
   lpicture: schoolsmall.png
   techniques: HTML, CSS & jQuery)
-  url: http://www.zango.nl
+  url: http://tomstemerding.kusted.nl/Website/
