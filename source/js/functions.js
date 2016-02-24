@@ -8,3 +8,4 @@ function tabSwitch_2(active, number, tab_prefix, content_prefix) {
     document.getElementById(tab_prefix+active).className = 'active';    
      
 }
+

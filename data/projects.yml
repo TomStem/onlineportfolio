@@ -6,6 +6,7 @@ kraamzorgdezuster:
   summary: A existing wordpress theme edited to the needs of the client.
   techniques: Wordpress(HTML(5), CSS(3))
   url: http://www.kraamzorgdezuster.nl
+  modal: #portfolioModal1
 kusted:
   project_name: kusted.nl
   picture: http://tomstemerding.kusted.nl/assets/img/kustedsingle.png

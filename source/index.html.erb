@@ -6,7 +6,7 @@ title: Tom Stemerding - Online Portfolio
   <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('images/webdev.jpg'); ">
 </div>
 
-  <div class="content-me">
+  <div class="content">
     <div class="container">
       <div class="profile-header-infos">
         <img src="https://avatars3.githubusercontent.com/u/7031316?v=3&s=460" alt="" width="200" class="img-circle">
@@ -17,15 +17,15 @@ title: Tom Stemerding - Online Portfolio
   </div>
 
   <div id="skills" class="container content-pad">
-    <h2>Skills</h2>
+    <h2>// SKILLS</h2>
   </div>
 
-  <div class="content-skills">
+  <div class="content">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
-          <div class="skill">
-            <h3>Front-end</h3>
+          <div class="skill box">
+            <h2>Front-end</h2>
             <ul class="list-unstyled">
               <li><img src="images/html5.svg" width="25">HTML5 & <img src="images/css3.svg" width="25">CSS3</li>
               <li><img src="images/javascript_1.svg" width="25">JavaScript, <img src="images/jquery_logo.svg" width="25">jQuery & <img src="images/react.svg" width="25">React.js</li>
@@ -37,8 +37,8 @@ title: Tom Stemerding - Online Portfolio
         </div>
 
         <div class="col-xs-12 col-sm-4">
-          <div class="skill">
-            <h3>Back-end</h3>
+          <div class="skill box">
+            <h2>Back-end</h2>
             <ul class="list-unstyled">
               <li><img src="images/ruby_rough.svg" width="25">Ruby</li>
               <li><img src="images/ror.svg" width="25">Ruby on Rails</li>
@@ -50,8 +50,8 @@ title: Tom Stemerding - Online Portfolio
         </div>
 
         <div class="col-xs-12 col-sm-4">
-          <div class="skill">
-            <h3>Tools</h3>
+          <div class="skill box">
+            <h2>Tools</h2>
             <ul class="list-unstyled">
               <li><img src="images/terminal_badge.svg" width="25">Command lines</li>
               <li><img src="images/sublime.svg" width="25">Sublime Text</li>
@@ -68,10 +68,10 @@ title: Tom Stemerding - Online Portfolio
   </div>
 
   <div class="container content-pad">
-    <h2>Projects</h2>
+    <h2 id="projects">// PROJECTS</h2>
   </div>
 
-  <div id="projects" class="content-projects">
+  <div class="content">
     <div class="container">
       <div class="row">
         <% data.projects.each do |owner, project| %>
@@ -89,3 +89,88 @@ title: Tom Stemerding - Online Portfolio
       </div>
     </div>
   </div>
+
+  <div class="container content-pad">
+  <h2 id="aboutme" >// ABOUT ME</h2>
+  </div>
+  
+  <div class="content">
+    <div class="container">
+      <!-- ABOUT ME -->
+      <div class="box">
+        <p>I  am  a junior  developer with  first working experience, I am  interested  in  music,  
+playing darts,  social  media,  innovating  media solutions. I  am  hands on, loyal,  eager to  
+learn and collegially.    Searching for an  informal  working environment with  the 
+possibility to  improve my  knowledge and skills  in  practice. </p>
+      </div>
+      <!-- EDUCATION -->
+      <div class="box">
+        <h2>Education</h2>
+        <ul id="education" class="clearfix">
+          <li>
+            <div class="year pull-left">2003</div>
+            <div class="description pull-right">
+              <h3>Alberdingk Thijm College,  Hilversum</h3>
+              <p>HAVO, (HAVO 4 certificate achieved)</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2008</div>
+            <div class="description pull-right">
+              <h3>Mediacollege, Amsterdam</h3>
+              <p>MBO, Webdeveloper  (achieved)</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2012</div>
+            <div class="description pull-right">
+              <h3>Hogeschool  van Amsterdam,  Amsterdam</h3>
+              <p>HBO, Media,  information & communication (not  completed)</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2016</div>
+            <div class="description pull-right">
+              <h3>B. Startup School, Amsterdam</h3>
+              <p>Web Application Development by Le Wagon</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- EXPERIENCES -->
+      <div class="box">
+        <h2>EXPERIENCES</h2>
+        <ul id="education" class="clearfix">
+          <li>
+            <div class="year pull-left">2011-2012</div>
+            <div class="description pull-right">
+              <h3>GNR8</h3>
+              <p>Intern</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2012-2012</div>
+            <div class="description pull-right">
+              <h3>Cinekid</h3>
+              <p>Volunteer</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2012-today</div>
+            <div class="description pull-right">
+              <h3>ByTSdesign</h3>
+              <p>Independent front  end developer</p>
+            </div>
+          </li>
+          <li>
+            <div class="year pull-left">2013–2015</div>
+            <div class="description pull-right">
+              <h3>E2  Foods BV  & Kusted  Fine  Food  Factory</h3>
+              <p>Webmaster & General employee</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="scrollToTop play"><i class="fa fa-arrow-up fa-4x"></i></a>

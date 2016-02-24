@@ -30,8 +30,8 @@
 <%= partial "navbar" %>
 <%= yield %>
 <%= partial "footer" %>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/scroll.js"></script>
 <script type="text/javascript">
    var hashTagActive = "";
     $(".scroll").click(function (event) {
@@ -50,6 +50,24 @@
             }, 1000, 'swing');
             hashTagActive = this.hash;
         }
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'up.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+
+        $.get();
+
+        audioElement.addEventListener("load", function() {
+            audioElement.play();
+        }, true);
+
+        $('.play').click(function() {
+            audioElement.play();
+        });
     });
 </script>
 </body>
