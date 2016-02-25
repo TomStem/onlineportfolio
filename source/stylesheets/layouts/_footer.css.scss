@@ -1,5 +1,11 @@
-.footer p {
-  color: #FFF;
-  padding: 10px;
-  margin-top: 5px;
-}
+.footer-wrapper {
+  background-color: #2C3238;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  text-align: right;
+  font-weight: 300; }
+  /* line 8, /Users/Martin_Balk/Synced/Website development/resume_website/source/stylesheets/layout/_footer.css.scss */
+  .footer-wrapper p {
+    margin: 0px;
+    color: #FFF; }
