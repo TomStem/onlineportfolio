@@ -10,14 +10,14 @@
 // }
 // 
 .banner {
-  color: white;
-  text-align: center;
-  height: 100vh;
+  background-image: url("../images/webdev.jpg");
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-attachment: fixed;
+  padding: 0px 0;
+  height: 350px;
+  color: white;
 }
+
 .banner h1 {
   font-size: 50px;
   font-weight: bold;
