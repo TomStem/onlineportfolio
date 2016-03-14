@@ -28,3 +28,10 @@ schoolproject:
   lpicture: schoolsmall.png
   techniques: HTML, CSS & jQuery)
   url: http://tomstemerding.kusted.nl/Website/
+dronehubs:
+  project_name: Le Wagon end project
+  picture: https://res.cloudinary.com/tomstem/image/upload/v1457953129/Schermafbeelding_2016-03-14_om_11.58.06_cxfbme.png
+  summary: My end project of the Le Wagon bootcamp.
+  lpicture: https://res.cloudinary.com/tomstem/image/upload/v1457953228/Schermafbeelding_2016-03-14_om_12.00.02_mdvvxs.png
+  techniques: HTML, CSS, Ruby(on Rails)
+  url: http://dronehubs.herokuapp.com
