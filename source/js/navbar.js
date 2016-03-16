@@ -5,6 +5,6 @@ $(window).on('scroll', function(e) {
     $('.navbar-tom ').addClass('.has-background')
   } else {
 
-    $('.navbar-tom').removeClass('has-background')
+    $('.navbar-tom').removeClass('.has-background')
   }
 })
