@@ -1,0 +1,18 @@
+/* line 1, /Users/TomSys/code/TomStem/onlineportfolio/source/stylesheets/components/scroll.css.scss */
+.scrollToTop {
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  display: none;
+  z-index: 2; }
+
+/* line 15, /Users/TomSys/code/TomStem/onlineportfolio/source/stylesheets/components/scroll.css.scss */
+.scrollToTop:hover {
+  text-decoration: none; }
